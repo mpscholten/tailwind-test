@@ -14,6 +14,6 @@ module.exports = {
         // https://tailwindcss.com/docs/content-configuration#safelisting-classes
     ],
     plugins: [
-        require('@tailwindcss/forms'),
+        require('@tailwindcss/forms')
     ],
 };
