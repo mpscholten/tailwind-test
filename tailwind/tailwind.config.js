@@ -7,7 +7,7 @@ module.exports = {
         },
     },
     content: [
-        "../Web/View/**/*.hs",
+        "Web/View/**/*.hs",
     ],
     safelist: [
         // Add custom class names.

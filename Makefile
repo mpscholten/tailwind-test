@@ -28,7 +28,7 @@ tailwind-dev:
 	cd tailwind && npx tailwindcss -i ./app.css -o ../static/app.css --watch
 
 static/app.css:
-	cd tailwind && NODE_ENV=production npx tailwindcss -i ./app.css -o ../static/app.css --minify
+	NODE_ENV=production npx tailwindcss -i ./tailwind/app.css -o static/app.css --minify
 
 include ${IHP}/Makefile.dist
 
